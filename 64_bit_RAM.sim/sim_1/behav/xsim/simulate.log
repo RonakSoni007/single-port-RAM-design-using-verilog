@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Simulation completed.
+$stop called at time : 60 ns : File "C:/Users/ronak/64_bit_RAM/64_bit_RAM.srcs/sim_1/new/bit_single_port_ram_tb.sv" Line 63

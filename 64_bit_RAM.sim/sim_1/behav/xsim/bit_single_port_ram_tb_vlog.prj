@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../64_bit_RAM.srcs/sources_1/new/64bit_single_port_ram.sv" \
+"../../../../64_bit_RAM.srcs/sim_1/new/bit_single_port_ram_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

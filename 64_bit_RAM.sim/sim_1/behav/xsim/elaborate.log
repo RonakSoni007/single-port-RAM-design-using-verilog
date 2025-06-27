@@ -1,0 +1,14 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto af01569d202341f1888555c9aad35b8e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bit_single_port_ram_tb_behav xil_defaultlib.bit_single_port_ram_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/ronak/64_bit_RAM/64_bit_RAM.srcs/sources_1/new/64bit_single_port_ram.sv" Line 1. Module bit_single_port_ram doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bit_single_port_ram
+Compiling module xil_defaultlib.bit_single_port_ram_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bit_single_port_ram_tb_behav
